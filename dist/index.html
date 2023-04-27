@@ -1,0 +1,88 @@
+
+<!-- ----->
+<html> 
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="/fonts/Blogger Sans.otf"/>
+    <!--link(rel='stylesheet', href='/fonts/Blogger Sans-Light Italic.otf')-->
+    <title>Сайт про графики ЛР-03</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async="async"></script>
+  </head>
+  <body> 
+    <!--.h0a(href="index.html") Title page
+    -->
+    <!--.h1a(href="Page_03.html") Галерея мультсериалов
+    -->
+    <!--.h2 a(href="Page_02.html") Список мультсериалов
+    -->
+    <div class="block-01">
+      <div class="hl"></div>
+    </div>
+    <div class="head_01"> 
+      <div class="my-text-02"> 
+        <p>График кардиоида</p>
+      </div>
+    </div>
+    <div class="r-block"> 
+      <div class="title-001">
+        <p>Количество фигур: 
+          <input type="text" name="" value="40"/>
+          <button id="butt-02">Построить график</button>
+        </p>
+      </div>
+      <div id="graf-container">
+        <div class="curr-graff"></div>
+        <p id="p-1-1">Введено неверное колличество фигур. Введите значения в диапазоне от 10 до 300</p>
+      </div>
+    </div>
+    <div class="my-text-02"> 
+      <p>График функции</p>
+    </div>
+    <div class="r-block-2">
+      <div class="title-001">
+        <p id="inl">Функция:&nbsp;&nbsp;
+          <div id="inl"> 
+            <p id="inl">$$f(x) = \frac{e^x}{x^2 - 25}$$</p>
+          </div>
+        </p>
+      </div>
+      <div id="graf-container_02">
+        <div class="curr-graff_02"></div>
+        <p id="p-1-2">Введён неверный интервал. Первое значение должно быть меньше второго, и находиться в промежутке от -100 до 20</p>
+      </div>
+      <div class="center-001">
+        <p id="inl">Интервал: от
+          <input id="pg-0-inp-1" type="text" name="" value="-10"/>
+          <p id="inl">&nbsp;до </p>
+          <input id="pg-0-inp-2" type="text" name="" value="20"/>
+          <button id="butt-003">Построить график</button>
+        </p>
+      </div>
+    </div>
+    <div class="r-block-2">
+      <div class="block-v-1">
+        <p>Интересные интервалы:</p>
+        <ol> 
+          <li>Видно всю функцию: <strong>от -10 до 20</strong></li>
+          <li>Видно разрыв в точке <i>5</i>: <strong>от 4 до 6</strong></li>
+          <li>Хорошо видно разрыв в точке <i>-5</i>: от <strong>-5.001 до -4.999</strong></li>
+        </ol>
+      </div>
+    </div>
+    <div class="f50px-spase"></div>
+    <div class="f50px-spase"></div>
+    <div class="my-block-1"></div>
+  </body>
+  <div class="50px-spase">
+    <p></p>
+  </div>
+  <div class="page-footer fixed-bottom">
+    <p>made by <a href="https://vk.com/gog.ortey">Gogik Ortey</a></p>
+  </div>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="js/js-LR-03.js"></script>
+  <script src="js/js-LR-03_2.js"></script>
+</html>
